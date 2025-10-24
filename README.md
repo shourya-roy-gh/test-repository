@@ -1,4 +1,4 @@
-#t test-repository
+# test-repository
 
 Composio GitHub Tools
 

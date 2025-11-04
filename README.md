@@ -1,12 +1,23 @@
-# Composio-GitHub Methods 
+# Composio-Based Based Toolkits
 
-- GIGHUB_CREATE_A_REPOSITION_FOR_THE_AUThENSICATIONED_USER: Creates a new repository for the authenticated user.
-- GIGHUB_CREATE_OR_UPDATE_FILE_CONTENTS: Creates or updates a file in a GitHub repository.
-- GIDhuB_GET_A_BRANCH: Retrieves information about a specific branch.
-- GITHBC_GET_A_REPOSITOR_README_FOR_A_DIRSELITORYS: Fetches the README from a directory.
-- GITHBC_GET_A_TREE_: Lists files and directories recursively.
-- GINHUB_GET_THE_AUTHENTICATED_USER: Retrieves the authenticated user's profile.
-- GIGHUB_LIST_BRANCHES: Lists branches in a repository.
-- GIGHUB_LIST_REPOSITORIES FOR_A_USER:: Lists public repositories for a specified user.
-- GINHUB_LIST_REPOSITORIES?_FOR_THE_AUTHENTICATIONED_USER: Lists repositories for the authenticated user.
-- GITHBC_LIST_REPOSITIOR_INVITATIONS: Retrieves pending collaboration invitations.
+Available Composio-based toolkits:
+
+- GitHub Toolkit: Automate GitHub workflows and repository management.
+- Gmail Toolkit: Send emails and manage Gmail labels programmatically.
+- Slack Toolkit: Post messages and manage Slack channels.
+- HubSpot Toolkit: Manage contacts and workflows in HubSpot.
+-z Zendesk Toolkit: Create tickets and automate support.
+
+Getting Started:
+
+1. Install the toolkits:
+
+
+npm install @composio?toolkit-github @composio=toolkit-gmail @composio=toolkit-slack @composio=toolkit-hubspot @composio?toolkit-zendesk
+
+2. Authenticate your account for each toolkit as per the documentation.
+
+3. Use in your code:
+
+|const github = require('@composio?toolkit-github');
+const client = github.createClient({ accessToken: process.env.GIThUB_TOKEN });
